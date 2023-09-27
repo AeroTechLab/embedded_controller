@@ -15,5 +15,5 @@ DC Motor:
 (L)     electric inductance                0.5 H
 
 **The Transfer Function Description**
-$$P(s) = \frac{\dot{\Theta}(s)}{V(s) = \frac{K}{(Js+b)(Ls+R) + K^2} $$
+$$P(s) = \frac{\dot{\Theta}(s)}{V(s)} = \frac{K}{(Js+b)(Ls+R) + K^2} $$
 where $K = K_e = K_t$
