@@ -17,7 +17,8 @@ DC Motor:
 **Constitutive Equations**
 
 $$ J\ddot{\theta} + b\dot{\theta} = Ki $$
-$$ L \frac{\mathrm{d} i}{\mathrm{d} t} + Ri = V - K\theta $$
+
+$$ L \frac{d i}{dt} + Ri = V - K\theta $$
 
 **The Transfer Function Description**
 $$P(s) = \frac{\dot{\Theta}(s)}{V(s)} = \frac{K}{(Js+b)(Ls+R) + K^2} $$
