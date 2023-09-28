@@ -15,12 +15,9 @@ DC Motor:
 * (L)     electric inductance                0.5 H
 
 **Constitutive Equations**
-$$
-  J\ddot{\theta} + b\dot{\theta} = Ki
-$$
-$$
-  L \frac{\mathrm{d} i}{\mathrm{d} t} + Ri = V - K\theta
-$$
+
+$$ J\ddot{\theta} + b\dot{\theta} = Ki $$
+$$ L \frac{\mathrm{d} i}{\mathrm{d} t} + Ri = V - K\theta $$
 
 **The Transfer Function Description**
 $$P(s) = \frac{\dot{\Theta}(s)}{V(s)} = \frac{K}{(Js+b)(Ls+R) + K^2} $$
