@@ -1,4 +1,4 @@
-#include "PID.h"
+#include "pid.h"
 
 /*******************************************************************************
  * LOCAL CONSTANTS
@@ -41,7 +41,7 @@ void update_measurement(PIDController* pid, const Real measurement) {
  * Proportional
  ******************************************************************************/
 void update_proportional_term(PIDController* pid) {
-    float proportional = pid->Kp * pid->prev_error;
+    pid->proportional_term = pid->Kp * pid->prev_error;
 }
 
 /*******************************************************************************
